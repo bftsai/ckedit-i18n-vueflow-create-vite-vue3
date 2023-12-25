@@ -13,14 +13,14 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
-git checkout -b main
+git checkout -b master
 git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://bftsai.github.io
 # git push -f git@github.com:bftsai/bftsai.github.io.git main
 
-# if you are deploying to https://bftsai.github.io/<REPO>
-# git push -f git@github.com:bftsai/<REPO>.git main:gh-pages
+# if you are deploying to https://bftsai.github.io/ckedit-i18n-vueflow-create-vite-vue3
+git push -f git@github.com:bftsai/ckedit-i18n-vueflow-create-vite-vue3.git master:gh-pages
 
 cd -
